@@ -46,6 +46,10 @@ private:
 	bool Grabbed = false;
 
 	UPhysicsHandleComponent* GetPhysicsHandle() const;
+
+	bool GetGrabbableInReach(FHitResult& OutHitResult) const;
+
+	
 	/*void PrintDamage(const float& Damage);
 	bool HasDamage(float& OutDamage);*/
 
